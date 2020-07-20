@@ -1,6 +1,7 @@
-Inspired by - 
-https://sourabhbajaj.com/mac-setup/
-https://github.com/utkuufuk/ubuntu-on-steroids
+Inspired by:
+
+- https://sourabhbajaj.com/mac-setup/
+- https://github.com/utkuufuk/ubuntu-on-steroids
 
 ### Social 
 
@@ -24,21 +25,25 @@ sudo apt install libreoffice # will also install fonts Carlito and Caladea
 #### Customize Thunderbird
 Add email to thunderbird
 
-Alt+V; View -> Layout -> Show Menu Bar
-View -> Sort By -> Date, Descending, Threaded
-Edit -> Preferences -> Display -> Font -> Carlito, Size -> 11
-# Carlito is metrically compatible font with Calibri
-# Similarly, Caladea is for Cambria
-Edit -> Preferences -> Composition -> Font -> Variable Width, Size -> Medium
+ - Alt+V; View -> Layout -> Show Menu Bar
+ - View -> Sort By -> Date, Descending, Threaded
+ - Edit -> Preferences -> Display -> Font -> Carlito, Size -> 11
+
+> Carlito is metrically compatible font with Calibri. Similarly, Caladea is for Cambria
+
+ - Edit -> Preferences -> Composition -> Font -> Variable Width, Size -> Medium
 
 #### Customize terminal
-Hamburger Menu -> Preferences
-Theme -> Dark
-Profiles -> Unnamed -> Colors -> Text & Background Color -> Solarized Dark, Palette -> Tango/Solarized Dark
+
+- Hamburger Menu -> Preferences
+- Theme -> Dark
+- Profiles -> Unnamed -> Colors -> Text & Background Color -> Solarized Dark, Palette -> Tango/Solarized Dark
 
 #### Microsoft Teams
 Download and install from [here](https://www.microsoft.com/en-ca/microsoft-365/microsoft-teams/download-app#desktopAppDownloadregion)
 It will also setup an apt repository
+
+> command line version
 ```
 curl https://packages.microsoft.com/keys/microsoft.asc | sudo apt-key add -
 
@@ -53,6 +58,8 @@ sudo apt install teams
 #### Google Chrome
 Download and install from [here](https://www.google.com/intl/en/chrome/)
 It will also setup an apt repository
+
+> command line version
 ```
 wget -q -O - https://dl.google.com/linux/linux_signing_key.pub | sudo apt-key add -
 sudo sh -c 'echo "deb [arch=amd64] http://dl.google.com/linux/chrome/deb/ stable main" >> /etc/apt/sources.list.d/google.list'
@@ -238,6 +245,12 @@ sudo apt update && sudo apt install yarn
 
 ### Tools
 
+#### Archiving/Unarchiving
+```
+sudo apt install p7zip-full p7zip-rar
+```
+
+
 #### Rclone
 ```
 # Install rclone
@@ -250,5 +263,5 @@ curl https://rclone.org/install.sh | sudo bash
 
 ### GPG Keys
 
-[generate](https://docs.github.com/en/github/authenticating-to-github/generating-a-new-gpg-key)
-[export/import](https://www.debuntu.org/how-to-importexport-gpg-key-pair/)
+ - [generate](https://docs.github.com/en/github/authenticating-to-github/generating-a-new-gpg-key)
+ - [export/import](https://www.debuntu.org/how-to-importexport-gpg-key-pair/)
