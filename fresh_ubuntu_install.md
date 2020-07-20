@@ -1,7 +1,7 @@
 Inspired by:
 
-- https://sourabhbajaj.com/mac-setup/
-- https://github.com/utkuufuk/ubuntu-on-steroids
+- [MacOS Setup Guide by Sourabh Bajaj](https://sourabhbajaj.com/mac-setup/) [github](https://github.com/sb2nov/mac-setup)
+- [Ubuntu on Steroids](https://github.com/utkuufuk/ubuntu-on-steroids)
 
 ### Social 
 
