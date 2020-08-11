@@ -265,3 +265,14 @@ curl https://rclone.org/install.sh | sudo bash
 
  - [generate](https://docs.github.com/en/github/authenticating-to-github/generating-a-new-gpg-key)
  - [export/import](https://www.debuntu.org/how-to-importexport-gpg-key-pair/)
+
+
+ sudo apt install tmux
+ sudo apt install byobu
+
+
+
+To make locate and updatedb work
+```sh
+sudo apt install mlocate
+```
