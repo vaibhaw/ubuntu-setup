@@ -276,3 +276,37 @@ To make locate and updatedb work
 ```sh
 sudo apt install mlocate
 ```
+
+### Image Editors
+```sh
+sudo apt install shotwell
+```
+
+### Customizations
+```sh
+sudo apt install gnome-tweak-tool
+
+```
+
+### Video
+Kazam
+```sh
+sudo apt install ubuntu-restricted-extras
+sudo apt install kazam
+sudo apt install vlc
+```
+
+
+### ZSH and Oh-my-zsh
+```sh
+sudo apt install zsh
+```
+
+```sh
+# oh my zsh
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+
+# powerline fonts
+sudo apt install fonts-powerline
+```
+
