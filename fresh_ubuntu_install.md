@@ -308,5 +308,28 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/too
 
 # powerline fonts
 sudo apt install fonts-powerline
+
+# other nerd-fonts
+# download to ~/.fonts
+# build font cache again
+fc-cache -fv
 ```
+#### nerd-fonts
+```sh
+git clone git@github.com:ryanoasis/nerd-fonts.git
+cd nerd-fonts
+./install.sh Meslo
+
+```
+#### note worthy nerd-fonts
+- FiraCode
+- SauceCodePro
+- Meslo
+
+
+#### oh-my-zsh noteworthy themes
+- bira
+- ys
+- zsh2000
+- powerlevel10k
 
